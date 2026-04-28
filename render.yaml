@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: booking-system
+    runtime: docker
+    repo: https://github.com/chukwunwike/booking-system-portfolio.git
+    branch: master
+    dockerfilePath: ./Dockerfile
